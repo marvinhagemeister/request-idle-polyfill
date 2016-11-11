@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter",
+  "version": "0.0.1",
+  "description": "typescript boilerplate project",
+  "main": "dist/index.js",
+  "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint src/",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "test": "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
+    "test-watch": "npm t -- -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "ts-node": "^1.6.1",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.7"
+  }
+}
