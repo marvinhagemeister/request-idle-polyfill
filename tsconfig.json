@@ -2,16 +2,16 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "sourceMap": true,
     "pretty": true,
+    "declaration": true,
     "outDir": "dist/"
   },
   "exclude": [
     "node_modules"
   ],
   "files": [
-    "./typings/index.d.ts",
     "./src/index.ts"
   ]
 }
