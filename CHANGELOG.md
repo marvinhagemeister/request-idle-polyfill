@@ -1,8 +1,9 @@
 # Changelog
 
-## 1.1.0
+## 1.0.1
 
-- Extract type-checks into a single npm module
+- Improve typings when using in node
+- Safeguiard when window is `undefined`
 
 ## 1.0.0
 

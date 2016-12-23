@@ -1,6 +1,6 @@
 {
   "name": "request-idle-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "polyfill for requestIdleCallback",
   "keywords": [
     "polyfill",
