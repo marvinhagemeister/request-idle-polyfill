@@ -1,3 +1,7 @@
+if (typeof window === "undefined") {
+  const window = this;
+}
+
 window.requestIdleCallback =
   window.requestIdleCallback ||
   function (cb) {
